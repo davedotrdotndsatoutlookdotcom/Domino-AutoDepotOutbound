@@ -22,3 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Ignore the generated/local files
+autodepotoutbound_init.txt
+autodepotoutbound_init.txt.bak
+
+# (autodepotoutbound_init.template.txt is NOT listed here, so it will be tracked)
