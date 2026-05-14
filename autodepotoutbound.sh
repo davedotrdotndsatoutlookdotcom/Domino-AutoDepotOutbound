@@ -29,7 +29,7 @@
 # 
 ###########################################################################################
 
-java -jar /domino/datasets/local/Domino-AutoDepotOutbound/autodepotoutbound.jar -c /domino/datasets/local/Domino-AutoDepotOutbound/autodepotoutbound_init.txt >> /mnt/results/logs/autodepotoutbound.log
+java -jar /repos/Domino-AutoDepotOutbound/autodepotoutbound.jar -c /repos/Domino-AutoDepotOutbound/autodepotoutbound_init.txt >> /mnt/results/logs/autodepotoutbound.log
 
 
 # End of script
